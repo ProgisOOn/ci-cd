@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <h1>Value = {state}</h1>
-        <button onClick={increament}>increament</button>
+          <h1 style={{fontSize: 70, color: "red"}}>Value = {state}</h1>
+        <button style={{ background: "black", color: "white" }} onClick={increament}>increament</button>
       </header>
     </div>
   );
