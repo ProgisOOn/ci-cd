@@ -24,6 +24,6 @@ jobs:
       - name: build project
         run: npm run build 
       - name: start site
-        run: npm start 
+        ru: npm start 
       
       
